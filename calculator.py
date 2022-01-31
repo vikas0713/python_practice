@@ -24,4 +24,5 @@ def get_input():
     n2 = int(input("enter the second element:"))
     calculator(op, n1, n2)
 
+
 get_input()

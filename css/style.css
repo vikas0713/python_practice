@@ -3,3 +3,24 @@
 p {
     color: blue;
 }
+
+.myContent {
+    color: violet;
+    background-color: #f1d7c4;
+    height: 100px;
+    width: auto;
+    padding: 10px 5px 10px 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.spanContent{
+    text-align: right !important;
+    padding: 10px 5px 10px 5px;
+
+}
+
+.imageContent{
+    padding: 50px;
+    border-radius: 50%;
+}

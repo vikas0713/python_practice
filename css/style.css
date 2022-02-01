@@ -1,4 +1,7 @@
-
+.divClass1 {
+    color: blue;
+    text-align: center;
+}
 
 *{
     margin: 0;
@@ -25,7 +28,7 @@ div.register{
     width: 100px;
     font-size: 18px;
     border-radius: 10px;
-    border:1px soid cornsilk;
+    border:1px solid cornsilk;
     box-shadow: px;
 }
 form#register{
@@ -42,7 +45,7 @@ input#name{
     outline:0;
     padding: 7px;
     background-color: lightgray;
-    box-shadow: inset 1px 1px 5px; rgba (0,o,o,0,3);
+    box-shadow: inset 1px 1px 5px; rgba(0,o,o,0,3);
 }
 input#submit{
     width: 200px;
@@ -50,13 +53,36 @@ input#submit{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
-    border: none;
     border-radius: 3px;
     background-color: cornsilk;
     color: cadetblue;
     cursor: pointer;
     border: 1px solid black;
-    lable,span,h2{
+    label,span,h2{
         text-shadow: 1px 1px 5px red;
     }
+
+p {
+    color: blue;
+}
+
+.myContent {
+    color: violet;
+    background-color: #f1d7c4;
+    height: 100px;
+    width: auto;
+    padding: 10px 5px 10px 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.spanContent{
+    text-align: right !important;
+    padding: 10px 5px 10px 5px;
+
+}
+
+.imageContent{
+    padding: 50px;
+    border-radius: 50%;
 }

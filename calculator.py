@@ -18,13 +18,4 @@ def multiply(n1,n2):
 def division(n1,n2):
     return n1/n2
 
-
-def get_input():
-    op=input("enter the operator:")
-    n1 = int(input("enter the first element:"))
-    n2 = int(input("enter the second element:"))
-    calculator(op,n1,n2)
-
-get_input()
-
-
+calculator("+",9,3)

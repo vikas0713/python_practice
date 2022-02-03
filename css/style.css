@@ -94,3 +94,6 @@ p {
  color: brown !important;
 }
 
+.grey-background {
+    background-color: grey !important;
+}

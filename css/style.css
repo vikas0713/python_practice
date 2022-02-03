@@ -24,3 +24,7 @@ p {
     padding: 50px;
     border-radius: 50%;
 }
+
+.grey-background {
+    background-color: grey !important;
+}

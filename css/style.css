@@ -29,12 +29,11 @@ div.register{
     font-size: 18px;
     border-radius: 10px;
     border:1px solid cornsilk;
-    box-shadow: px;
 }
 form#register{
     margin:40px;
 }
-lable{
+label{
     font-family: sans-serif;
     font-size: 18px;
     font-style: italic;
@@ -47,7 +46,7 @@ input#name{
     background-color: lightgray;
     box-shadow: inset 1px 1px 5px; rgba(0,o,o,0,3);
 }
-input#submit{
+input#submit {
     width: 200px;
     padding: 7px;
     font-size: 16px;
@@ -58,9 +57,13 @@ input#submit{
     color: cadetblue;
     cursor: pointer;
     border: 1px solid black;
-    label,span,h2{
-        text-shadow: 1px 1px 5px red;
-    }
+}
+
+label, span, h2 {
+    text-shadow: 1px 1px 5px red;
+}
+
+
 
 p {
     color: blue;
@@ -86,3 +89,8 @@ p {
     padding: 50px;
     border-radius: 50%;
 }
+
+.text-brown{
+ color: brown !important;
+}
+
